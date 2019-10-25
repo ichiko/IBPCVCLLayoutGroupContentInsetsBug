@@ -1,0 +1,16 @@
+PODS:
+  - IBPCollectionViewCompositionalLayout (0.6.7)
+
+DEPENDENCIES:
+  - IBPCollectionViewCompositionalLayout
+
+SPEC REPOS:
+  trunk:
+    - IBPCollectionViewCompositionalLayout
+
+SPEC CHECKSUMS:
+  IBPCollectionViewCompositionalLayout: 06cf9aa021fd80807385d5c49ece4364609a0c97
+
+PODFILE CHECKSUM: 820614f45d3eb5147e218c980e3289fdbbf655d2
+
+COCOAPODS: 1.8.4
