@@ -6,5 +6,6 @@ target 'IBPCVCLLayoutGroupContentInsetsBug' do
   use_frameworks!
 
   pod 'IBPCollectionViewCompositionalLayout'
+  pod 'DiffableDataSources'
 
 end
