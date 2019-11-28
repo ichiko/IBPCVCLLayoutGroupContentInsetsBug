@@ -17,12 +17,22 @@ class ViewController: UIViewController {
         contentInsetsSample.setTitle("1. LayoutGroup.contentInsets", for: .normal)
         contentInsetsSample.setTitleColor(.black, for: .normal)
         contentInsetsSample.addTarget(self, action: #selector(openLayoutGroupContentInsetsSample), for: .touchUpInside)
-
         stackView.addArrangedSubview(contentInsetsSample)
+
+        let boundarySample = UIButton()
+        boundarySample.setTitle("2. BoundarySupplementaryItem.align", for: .normal)
+        boundarySample.setTitleColor(.black, for: .normal)
+        boundarySample.addTarget(self, action: #selector(openBoundarySupplementarySample), for: .touchUpInside)
+        stackView.addArrangedSubview(boundarySample)
     }
 
     @objc func openLayoutGroupContentInsetsSample() {
         let vc = LayoutGroupContentInsetsViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+
+    @objc func openBoundarySupplementarySample() {
+        let vc = BoundarySupplementaryItemViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
 }
